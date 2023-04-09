@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icon/ico-64.png" type="image/png">
+    <title>Document</title>
+    <style>
+        div.section1{display: flex; justify-content: space-around; align-items: center; background-color: blanchedalmond;height: 100%;}
+        img.img1{width: 1200px;}
+        span.text1{font-family: Arial, Helvetica, sans-serif; font-size: 140px;}
+    </style>
+    <link rel="stylesheet" href="./dist/fullpage.min.css">
+    <script src="./dist/fullpage.min.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div class="section" id="section0">
+            <div class="section1">
+                <span class="text1">1</span>
+                <img src="./img/origami_fon_pc_2.png" alt="origami_fon_pc_2.png" class="img1">
+            </div>
+        </div>
+        <div class="section active" id="section1">
+            <div class="section1">
+                <span class="text1">2</span>
+                <img src="./img/origami_fon_pc_3.png" alt="origami_fon_pc_3.png" class="img1">
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <div class="section1">
+                <span class="text1">3</span>
+                <img src="./img/origami_fon_pc_7.png" alt="origami_fon_pc_7.png" class="img1">
+        </div>
+        </div>
+        <div class="section" id="section3">
+            <div class="section1">
+                <span class="text1">4</span>
+                <img src="./img/origami_fon_pc_13.png" alt="origami_fon_pc_13.png" class="img1">
+            </div>
+        </div>
+    </div>
+    <script>
+        var fullPage=new fullpage("#main",{
+            licenseKey:"rC*yWRX&9wAV.9*'V!THwji$MTW[.lTvoM0KF]{q,t`WYd Z4nOUiG84lq@B>87'" // randomly generated strinfg to remove red message from console
+        })
+    </script>
+</body>
+</html>
